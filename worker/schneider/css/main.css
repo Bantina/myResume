@@ -1,0 +1,394 @@
+/*
+.wrap {
+  width: 640px;
+  height: 100%;
+  min-height: 830px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: none;
+  background-color: #009530; }
+
+div.wrap {
+  background-size: 100% auto; }
+.qPage2 {
+  background-image: url(../images/02/bgYellow.png);
+  background-repeat: no-repeat; }
+ .qPage2 .div1, .qPage2 .div2, .qPage2 .div3, .qPage2 .div4 {
+  display: none; }*/
+  html,body{
+    margin:0;
+    padding:0;
+  }
+body{
+  background-color: #00826d;
+  background-size: 100% auto;
+}
+.wrap{
+  width: 480px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #00826d;
+  overflow: hidden;
+  display: none;
+}
+.percentShow{
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+    padding-top: 400px;
+    padding-left: 170px;
+}
+/*qPage1 start*/
+.qPage1  { 
+  display: block;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/01/background0.png);
+  background-repeat: no-repeat; }
+
+.paradiv{position: relative;}
+.para1_sound { display: none;}
+.para2_master{
+  width: 235px;
+  height: 235px;
+  background-image: url(../images/01/jiaoguan.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 300px;
+  left: 170px; 
+  display: none;
+}
+.para3_title{
+  width: 580px;
+  height: 385px;
+  background-image: url(../images/01/biaoti.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 110px;
+  left: 15px; 
+  display: none;
+     display: none;
+}
+.para4_call{
+  width: 140px;
+  height: 95px;
+  background-image: url(../images/01/jihe.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 490px;
+  left: 70px; 
+     display: none;
+}
+.para_soldier1{
+  width: 80px;
+  height: 150px;
+  background-image: url(../images/01/bingreen.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 610px;
+  left: 40px;
+   display: none;
+}
+.para_soldier2{
+  width: 80px;
+  height: 150px;
+  background-image: url(../images/01/binblue.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 610px;
+  left: 148px;
+  display: none;
+}
+.para_soldier3{
+  width: 80px;
+  height: 150px;
+  background-image: url(../images/01/binyellow.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 610px;
+  left: 252px; 
+     display: none;
+}
+.para_soldier4{
+ width: 80px;
+  height: 150px;
+  background-image: url(../images/01/binred.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 610px;
+  left: 355px; 
+     display: none;
+}
+.moveArrow{
+  width: 28px;
+  height: 40px;
+  background-image: url(../images/cursor.png);
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 760px;
+  left: 80px;
+     display: none;
+}
+/*qPage1 end*/
+/*qPage2 start*/
+ .qPage2 .div1 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/02/bgYellow.png);
+  background-repeat: no-repeat; }
+
+.qPage2 .div1 .ren {
+  width: 285px;
+  height: 230px;
+  background-image: url(../images/02/standYellow.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 395px;
+  left: 18px; }
+
+.qPage2 .div1 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/02/btnReturn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 714px;
+  left: 44px; }
+
+ .qPage2 .div1 .chakan {
+	  width: 155px;
+	  height: 52px;
+    background-image: url(../images/02/btnChaKan.png);
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  position: absolute;
+	 top: 714px;
+	 left: 286px
+}
+.qPage2 .div2 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/02/bgRed.png);
+  background-repeat: no-repeat; }
+
+.qPage2 .div2 .ren {
+  width: 281px;
+  height: 228px;
+  background-image: url(../images/02/standRed.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 408px;
+  left: 28px; }
+
+.qPage2 .div2 .back {
+   width: 155px;
+  height: 52px;
+  background-image: url(../images/02/btnReturn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 714px;
+  left: 44px; }
+
+ .qPage2 .div2 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/02/btnChaKan.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 714px;
+   left: 286px
+}
+.qPage2 .div3 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/02/bgBlue.png);
+  background-repeat: no-repeat; }
+
+.qPage2 .div3 .ren {
+  width: 292px;
+  height: 241px;
+  background-image: url(../images/02/standBlue.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 408px;
+  left: 16px; }
+
+.qPage2 .div3 .back {
+   width: 155px;
+  height: 52px;
+  background-image: url(../images/02/btnReturn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 714px;
+  left: 44px; }
+
+ .qPage2 .div3 .chakan {
+   width: 155px;
+    height: 52px;
+    background-image: url(../images/02/btnChaKan.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 714px;
+   left: 286px}
+
+.qPage2 .div4 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/02/bgGreen.png);
+  background-repeat: no-repeat; }
+
+.qPage2 .div4 .ren {
+  width: 293px;
+  height: 220px;
+  background-image: url(../images/02/standGreen.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 406px;
+  left: 24px; }
+
+.qPage2 .div4 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/02/btnReturn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 714px;
+  left: 44px; }
+
+ .qPage2 .div4 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/02/btnChaKan.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 714px;
+   left: 286px
+}
+
+/*qPage2 end*/
+/*qPage3 start*/
+.qPage3 .div1 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/03/bg1.png);
+  background-repeat: no-repeat; }
+
+  .qPage3 .div1 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/03/btn1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 728px;
+  left: 54px; }
+
+ .qPage3 .div1 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/03/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 728px;
+   left: 280px;
+}
+
+.qPage3 .div2 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/03/bg2.png);
+  background-repeat: no-repeat; }
+
+  .qPage3 .div2 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/03/btn1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 728px;
+  left: 54px; }
+
+ .qPage3 .div2 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/03/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 728px;
+   left: 280px;
+}
+
+.qPage3 .div3 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/03/bg3.png);
+  background-repeat: no-repeat; }
+
+  .qPage3 .div3 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/03/btn1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 728px;
+  left: 54px; }
+
+ .qPage3 .div3 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/03/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 728px;
+   left: 280px;
+}
+
+.qPage3 .div4 {
+  position: relative;
+  width: 480px;
+  height: 810px;
+  background-image: url(../images/03/bg4.png);
+  background-repeat: no-repeat; }
+
+  .qPage3 .div4 .back {
+  width: 155px;
+  height: 52px;
+  background-image: url(../images/03/btn1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 728px;
+  left: 54px; }
+
+ .qPage3 .div4 .chakan {
+    width: 155px;
+    height: 52px;
+    background-image: url(../images/03/btn2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+   top: 728px;
+   left: 280px;
+}
+
+/*qPage3 end*/
